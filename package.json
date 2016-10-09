@@ -1,0 +1,22 @@
+{
+  "name": "adslot-marketplace-graphql",
+  "version": "1.0.0",
+  "description": "Demo GraphQL implementation for Adslot marketplace",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "adslot",
+    "graphql",
+    "marketplace"
+  ],
+  "author": "Patrick Ivers <patrick.john.ivers@gmail.com> (http://ivers.com.au)",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.14.0",
+    "express-graphql": "^0.5.4",
+    "graphql": "^0.7.1"
+  },
+  "devDependencies": {}
+}
