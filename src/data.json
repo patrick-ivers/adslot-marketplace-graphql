@@ -1,0 +1,65 @@
+{
+  "publishers": [
+    {
+      "id": 0,
+      "givenName": "Cheryl",
+      "surname": "Rice",
+      "username": "crice0@google.com",
+      "avatar": "https://secure.gravatar.com/avatar/solutareprehenderitcorrupti.jpg?size=50x50&set=set1",
+      "timezone": "Asia/Jakarta",
+      "updatedAt": "10:03",
+      "status": "pending",
+      "company": {
+        "name": "Browsecat"
+      }
+    }, {
+      "id": 1,
+      "givenName": "Judith",
+      "surname": "Thomas",
+      "username": "jthomas1@lycos.com",
+      "avatar": "https://secure.gravatar.com/avatar/mollitiautdolorem.bmp?size=50x50&set=set1",
+      "timezone": "Asia/Manila",
+      "updatedAt": "3:09",
+      "status": "pending",
+      "company": {
+        "name": "Yodoo"
+      }
+    }, {
+      "id": 2,
+      "givenName": "Roger",
+      "surname": "Sims",
+      "username": "rsims2@vinaora.com",
+      "avatar": "https://secure.gravatar.com/avatar/doloremmagniquae.bmp?size=50x50&set=set1",
+      "timezone": "Europe/Zaporozhye",
+      "updatedAt": "6:13",
+      "status": "active",
+      "company": {
+        "name": "Rhycero"
+      }
+    }, {
+      "id": 3,
+      "givenName": "Carlos",
+      "surname": "Cooper",
+      "username": "ccooper3@cafepress.com",
+      "avatar": "https://secure.gravatar.com/avatar/omnisdoloremiste.jpg?size=50x50&set=set1",
+      "timezone": "Asia/Tokyo",
+      "updatedAt": "22:13",
+      "status": "active",
+      "company": {
+        "name": "Rooxo"
+      }
+    }, {
+      "id": 4,
+      "givenName": "Rachel",
+      "surname": "Thomas",
+      "username": "rthomas4@gnu.org",
+      "avatar": "https://secure.gravatar.com/avatar/etvoluptasdelectus.bmp?size=50x50&set=set1",
+      "timezone": "Asia/Manila",
+      "updatedAt": "1:23",
+      "status": "pending",
+      "company": {
+        "name": "Eare"
+      }
+    }
+  ]
+}
