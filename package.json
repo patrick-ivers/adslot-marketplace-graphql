@@ -4,6 +4,7 @@
   "description": "Demo GraphQL implementation for Adslot marketplace",
   "main": "index.js",
   "scripts": {
+    "start": "nodemon src/server.js --exec babel-node",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [
@@ -14,9 +15,18 @@
   "author": "Patrick Ivers <patrick.john.ivers@gmail.com> (http://ivers.com.au)",
   "license": "MIT",
   "dependencies": {
+    "apollo-server": "^0.3.2",
+    "body-parser": "^1.15.2",
     "express": "^4.14.0",
-    "express-graphql": "^0.5.4",
-    "graphql": "^0.7.1"
+    "graphql": "^0.7.2",
+    "graphql-tools": "^0.7.2",
+    "jsonfile": "^2.4.0",
+    "lodash": "^4.16.4"
   },
-  "devDependencies": {}
+  "devDependencies": {
+    "babel-cli": "^6.16.0",
+    "babel-core": "^6.17.0",
+    "babel-preset-es2015": "^6.16.0",
+    "nodemon": "^1.11.0"
+  }
 }
