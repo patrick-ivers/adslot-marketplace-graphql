@@ -13,10 +13,24 @@ const typeDefs = [`
     updatedAt: String
     status: String
     company: Company
+    sites: [Site]
+  }
+
+  type Site {
+    id: Int!
+    publisher: Publisher
+    name: String
+    description: String
+    url: String
+    logo: String
+    monthlyImpressions: Int
+    monthlyUpdates: Int
+    updatedAt: String
   }
 
   type Query {
-    publisher(id: Int, name: String): [Publisher]
+    publishers(id: Int, name: String): [Publisher]
+    sites: [Site]
   }
 
   schema {
