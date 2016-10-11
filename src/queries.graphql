@@ -1,0 +1,48 @@
+query PublisherContactDetails($id: Int) {
+  publishers(id: $id) {
+    givenName
+    surname
+    username
+    company {
+      name
+    }
+  }
+}
+
+query PublisherExpanded($id: Int) {
+  publishers(id: $id) {
+    id
+    givenName
+    surname
+    username
+    avatar
+    timezone
+    updatedAt
+    status
+    company {
+      name
+    }
+    sites {
+      id
+      name
+      description
+      url
+      logo
+      monthlyImpressions
+      monthlyUpdates
+      updatedAt
+      products {
+        id
+        name
+        classification
+        position
+        description
+        device
+        adFormatType
+        type
+        timezone
+        updatedAt
+      }
+    }
+  }
+}
