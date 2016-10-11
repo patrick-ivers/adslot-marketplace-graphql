@@ -14,6 +14,7 @@ const typeDefs = [`
     status: String
     company: Company
     sites: [Site]
+    products: [Product]
   }
 
   type Site {
@@ -26,11 +27,28 @@ const typeDefs = [`
     monthlyImpressions: Int
     monthlyUpdates: Int
     updatedAt: String
+    products: [Product]
+  }
+
+  type Product {
+    id: Int!
+    publisher: Publisher
+    site: Site
+    name: String
+    classification: String
+    position: String
+    description: String
+    device: String
+    adFormatType: String
+    type: String
+    timezone: String
+    updatedAt: String
   }
 
   type Query {
     publishers(id: Int, name: String): [Publisher]
-    sites: [Site]
+    sites(id: Int, publisherId: Int): [Site]
+    products(id: Int, publisherId: Int, siteId: Int, siteName: String): [Product]
   }
 
   schema {
